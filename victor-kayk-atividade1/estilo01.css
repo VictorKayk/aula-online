@@ -54,6 +54,9 @@ h1, h2{
 }
 
 /*Configurando o h1*/
+h1{
+    color:#08605F;
+}
 h1 a{
     color:#08605F;
     font-family: 'Roboto', sans-serif;
