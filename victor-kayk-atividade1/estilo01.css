@@ -1,0 +1,91 @@
+@charset "UFT-8";
+@font-face{
+    font-family: Nunito;
+    src:url(fontes/Nunito-Regular.ttf);
+}
+
+/*Configurações glabais*/
+*{
+    box-sizing: border-box;
+}
+
+/*Configurações do Body*/
+body{
+    background-image:linear-gradient(45deg, #384047, #414040);
+    background-attachment:fixed;
+}
+
+/*Configuração do Main*/
+main{
+    background-color:white;
+    box-shadow: 5px 5px 10px #1a1919cb;
+    width: 1000px;
+    margin:0 auto;
+    border-radius:10px;
+    padding:15px;
+}
+
+/*Configurando o conteiner*/
+.conteiner{
+    display:flex;
+    justify-content: center;
+}
+
+/*Configurando as imagens*/
+img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+}
+
+/*Configurando os links*/
+a, a:active, a:link{
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    color:black;
+    text-decoration:underline;
+}
+
+/*Configurando a margem do h1 e h2*/
+h1, h2{  
+    margin:10px;
+}
+
+/*Configurando o h1*/
+h1 a{
+    color:#08605F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.81em; /*45px / 16 = 2.81em*/
+}
+h1 a:hover{
+    color:#08605F;
+    text-decoration:underline;
+}
+/*Configurando o h2*/
+h2{
+    color:#9DA3A4;
+    font-family:Nunito;
+    font-size:2em;
+}
+/*Configurando o h3*/
+h3{
+    color:#F15946;
+    font-size:1.8em;
+}
+
+/*Configuração dos paragrafos*/
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.25em;
+}
+p strong{
+    color:#4A7C59;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Configurando as listas*/
+ul{
+    font-size:1.25em;
+}
