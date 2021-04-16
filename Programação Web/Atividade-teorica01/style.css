@@ -1,0 +1,21 @@
+h1{
+    font-size:3em;
+    color:rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-style:italic;
+    font-weight:bold;
+    text-decoration: overline underline dotted black;
+}
+
+/*Cascata = É como um "efeito dominó" que liga os estilos. Um estilo definido em cima interferem nos estilo definido a baixo dele, assim consecutivamente. Mas para o css, o estilo definido em baixo tem mais prioridade, por que assim torna possível modificar os estilo sem afetar os de cima.
+
+Herança = As tags filhas também recebem os estilos definidos para suas tags pais. Elas herdam esse estilo, dependendo da tags que se modifica o estilo, todas as demais também recebem. 
+
+
+
+Atributo = Informações extras/adicionais colocadas nas tags. Elas servem para fazer uma configuração em especifico ou para demarcar uma determinada tag.
+
+class= " " :  Serve para identificar uma tag em especifico ou um conjunto de tags (Um mesmo class pode ser adicionado a varias tags).
+id=" ":  Serve para identificar uma tag em especifico apenas (Só pode ter 1 id especifico por tag).
+href=" ":  Serve para redirecionar a tag para um link na internet ou para um arquivo no computador (da pra usar em um <a></a> para redirecionar o usuario para um site, ou até mesmo para o proprio site, só que em uma pagina diferente. Também da pra encontrar o arquivo de estilo css da pagina).*/
