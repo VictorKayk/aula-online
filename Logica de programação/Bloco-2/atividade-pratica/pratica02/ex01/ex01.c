@@ -5,6 +5,8 @@ main(){
     float salario, media_salario, maior_salario, media_filhos, porcentagem_salario_150;
     int cont, filhos, salario_150;
 
+    system("cls");
+    
     printf("\n- - - - -   Coletando Dados   - - - - -\n");
     maior_salario, filhos, salario_150 = 0;
     for(cont = 1; cont <= 200; cont++){
